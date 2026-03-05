@@ -1,0 +1,106 @@
+# =============================================================================
+# AI-102 Demo Repository — .gitignore
+# =============================================================================
+
+# --- Environment / secrets (NEVER commit) ---
+.env
+*.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.conda/
+
+# --- Build / distribution ---
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+MANIFEST
+.eggs/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+nosetests.xml
+*.log
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Azure / Prompt Flow artifacts ---
+.promptflow/
+.runs/
+promptflow_logs/
+*.pf.yaml.lock
+
+# --- Semantic Kernel ---
+.sk/
+sk_workdir/
+
+# --- Generated / output files ---
+*.pdf
+*.docx
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.wav
+*.mp4
+output/
+results/
+tmp/
+temp/
+
+# --- Model files ---
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.bin
+models/
+
+# --- Azure SDK cache ---
+.azure/
+azure_sdk_log*.txt
+
+# --- Misc ---
+*.bak
+*.tmp
+*.temp
+thumbs.db
+Thumbs.db
