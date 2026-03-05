@@ -1,0 +1,33 @@
+# Azure AI SDKs
+openai>=1.0.0
+azure-identity>=1.15.0
+azure-ai-textanalytics>=5.3.0
+azure-ai-vision-imageanalysis>=1.0.0
+azure-cognitiveservices-vision-customvision>=3.1.0
+azure-ai-contentsafety>=1.0.0
+azure-ai-language-conversations>=1.1.0
+azure-ai-language-questionanswering>=1.1.0
+azure-ai-translation-text>=1.0.0
+azure-search-documents>=11.6.0
+azure-ai-documentintelligence>=1.0.0
+azure-ai-projects>=1.0.0
+azure-cognitiveservices-speech>=1.37.0
+azure-mgmt-cognitiveservices>=13.5.0
+azure-mgmt-monitor>=6.0.0
+azure-storage-blob>=12.19.0
+azure-data-tables>=12.5.0
+
+# Prompt flow
+promptflow>=1.10.0
+promptflow-tools>=1.4.0
+
+# Semantic Kernel for agentic solutions
+semantic-kernel>=1.0.0
+
+# Flask for custom skill local dev server (Domain 6)
+flask>=3.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+Pillow>=10.0.0
